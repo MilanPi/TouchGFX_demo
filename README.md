@@ -1,1 +1,2 @@
-# TouchGFX_demo
+# TouchGFX demo hands-on
+
