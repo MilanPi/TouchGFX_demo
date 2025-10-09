@@ -7,7 +7,7 @@
 
 So there will be the 6 **Interactions** in total. See bellow all the settings which is needed to be done. Add **Interrations** one by one:
 
-![](imgs/Interactions.png)
+![](imgs/interactions.png)
 
 2. Once done with **Interactions** setting, click on **Generate Code** button (or pres F4 key)
 
