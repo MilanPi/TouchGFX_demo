@@ -22,6 +22,6 @@
 
 8. Wait until the TouchGFX Generator finish the job.
 
-Continue with [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02%20How%20to%20build%20and%20flash%20TouchGFX%20application%20on%20STM32N6570-DK%20discovery%20board.md)
+Continue with [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
 [<-- Back to main menu](README.md)

@@ -47,8 +47,8 @@ Screen 1
 
 7. Open the project in the **STM32CubeIDE**, build the project(s) and flash the board using a **flash script**.
 
-> see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02%20How%20to%20build%20and%20flash%20TouchGFX%20application%20on%20STM32N6570-DK%20discovery%20board.md)
+> see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
-Continue with [How to use Interractions](05%20How%20to%20use%20Interractions.md)
+Continue with [How to use Interractions](05_How_to_use_Interractions.md)
 
 [<-- Back to main menu](README.md)

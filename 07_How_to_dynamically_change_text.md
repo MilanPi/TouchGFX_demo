@@ -5,6 +5,6 @@
 
 
 
-Continue with [How to handle language translations](08%20How%20to%20handle%20language%20translations.md)
+Continue with [How to handle language translations](08_How_to_handle_language_translations.md)
 
 [<-- Back to main menu](README.md)

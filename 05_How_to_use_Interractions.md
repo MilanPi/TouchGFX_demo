@@ -15,7 +15,7 @@ So there will be the 6 **Interactions** in total. See bellow all the settings wh
 
 3. Open the project in the **STM32CubeIDE**, build the project(s) and flash the board using a **flash script**.
 
-> see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02%20How%20to%20build%20and%20flash%20TouchGFX%20application%20on%20STM32N6570-DK%20discovery%20board.md)
+> see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
 > Observe the difference between **easing equations** in the animation of the circles movement.
 
@@ -23,7 +23,7 @@ So there will be the 6 **Interactions** in total. See bellow all the settings wh
 
 ![](imgs/Board.png)
 
-Continue with [How to add another screen](06%20How%20to%20add%20another%20screen.md)
+Continue with [How to add another screen](06_How_to_add_another_screen.md)
 
 
 

@@ -41,6 +41,6 @@ Now the application code is generated. Let's build the applicaiton.
 
 ![](imgs/apprunning.png)
 
-Continue with [How create an empty TouchGFX project](03%20How%20to%20create%20an%20empty%20TouchGFX%20project.md)
+Continue with [How create an empty TouchGFX project](03_How_to_create_an_empty_TouchGFX_project.md)
 
 [<-- Back to main menu](README.md)
