@@ -1,54 +1,58 @@
 # 4. How to create a GUI with one screen
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)
 
-1. Place on the canvas the first widget - a **Box**.
+### 1. Place on the canvas the first widget - a ***Box***.
 
 ![](imgs/box.png)
+> Info: More information about the ***Box*** shape [here](https://support.touchgfx.com/docs/development/ui-development/ui-components/shapes/box)
 
-2. Enlarge the **Box** to cover all the screen canvas - it will serve as **white background**.
+### 2. Enlarge the ***Box*** to cover all the screen canvas - it will serve as ***white background***.
 
-3. Put on the canvas a **textArea** widget.
+### 3. Put on the canvas a ***TextArea*** widget.
 
 ![](imgs/textArea.png)
+> Info: More information about the ***TextArea*** widget [here](https://support.touchgfx.com/docs/development/ui-development/ui-components/miscellaneous/text-area)
 
-4. Change the font to be a "Copper Black".
+### 4. Change the font to be a "Copper Black".
 
 ![](imgs/ChangeFontCopperBlack.gif)
 
-4. Change text to "Screen 1" and move the **textArea** to top and center of the canvas (use automatic green **alignment guide lines**).
+### 5. Change text to "Screen 1" and move the ***TextArea*** to top and center of the canvas (use automatic green ***alignment guide lines***).
 ```
 Screen 1
 ```
 
 ![](imgs/textAreaPosition.gif)
 
-5. Copy-paste this textArea to produce three more textArea widdgets to create similar layout seen bellow:
-> In the **Properties** panel -> **Location** put these **Y** axis coordinates:
+### 6. Copy-paste this ***TextArea*** to produce three more ***TextArea*** widdgets to create similar layout seen bellow:
+> In the ***Properties*** panel -> ***Location*** put these ***Y*** axis coordinates:
 ```
-100
-200
-300
+y = 100  (for upper text "Linear")
+y = 200  (for middle text "Sine")
+y = 300  (for lower text "Elastic")
 ```
 ![](imgs/textLayout.png)
 
-5. Put on the canvas three circles, change their color to create similar layout seen bellow:
+### 7. Put on the canvas three ***Circle*** widgets, change their color to create similar layout seen bellow:
 
 ![](imgs/circle.png)
 
-> Hint: Re-arange widget z-order in the Screens panel.
+> Info: More information about the ***Circle*** widget [here](https://support.touchgfx.com/docs/development/ui-development/ui-components/shapes/circle)
 
-> Tip: use automatic green **alignment guide lines** to position circles in the middle of the textArea widget.
+> Hint: Re-arange widget z-order in the ***Screens*** panel.
+
+> Tip: use automatic green ***alignment guide lines*** to position ***Circle*** widgets in the middle of the ***TextArea*** widget.
 
 ![](imgs/Screen1Layout.png)
 
-6. Click on **Generate Code** button (or pres F4 key)
+### 8. Click on ***Generate Code*** button (or pres ***F4*** key)
 
 ![](imgs/generate.png)
 
-7. Open the project in the **STM32CubeIDE**, build the project(s) and flash the board using a **flash script**.
+### 9. Open the project in the ***STM32CubeIDE***, build the project(s) and flash the board using a ***flash script***.
 
 > see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
-Continue with [How to use Interractions](05_How_to_use_Interractions.md)
+> Continue with [How to use Interractions](05_How_to_use_Interractions.md)
 
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)

@@ -1,5 +1,5 @@
 # 2. How to build and flash TouchGFX application on STM32N6570-DK discovery board
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)
 
 Now the application code is generated. Let's build the applicaiton.
 
@@ -41,6 +41,6 @@ Now the application code is generated. Let's build the applicaiton.
 
 ![](imgs/apprunning.png)
 
-Continue with [How create an empty TouchGFX project](03_How_to_create_an_empty_TouchGFX_project.md)
+> Continue with [How create an empty TouchGFX project](03_How_to_create_an_empty_TouchGFX_project.md)
 
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)

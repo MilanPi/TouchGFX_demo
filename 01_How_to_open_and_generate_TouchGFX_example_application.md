@@ -1,5 +1,5 @@
 # 1. How to open and generate TouchGFX example application
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)
 ## Open TouchGFX Designer
 ![](imgs/designerIcon.png)
 [](imgs/ESesSRgBlU.png)
@@ -22,6 +22,6 @@
 
 8. Wait until the TouchGFX Generator finish the job.
 
-Continue with [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
+> Continue with [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
-[<-- Back to main menu](README.md)
+> [<-- Back to main menu](README.md)
