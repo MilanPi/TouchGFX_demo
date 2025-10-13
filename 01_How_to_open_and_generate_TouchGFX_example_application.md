@@ -1,9 +1,9 @@
 # 1. How to open and generate TouchGFX example application
 > [<-- Back to main menu](README.md)
-## Open TouchGFX Designer
+### 1. Open TouchGFX Designer
 ![](imgs/designerIcon.png)
 [](imgs/ESesSRgBlU.png)
-## Select example
+### 2. Select example
 1. Click on **Examples** button
 2. Click on **Select Board Setup** button
 3. Select STM32N6570 Discovery Kit
