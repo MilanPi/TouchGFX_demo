@@ -1,4 +1,4 @@
-# TouchGFX demo hands-on
+# STM32N6 discovery kit and TouchGFX hands-on
 
 During this hands-on you will learn:
 
