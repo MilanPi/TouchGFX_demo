@@ -4,8 +4,9 @@
 ### 1. Create a ***textArea*** which will hold random text and add ***button*** to change language
 
 1. Add some new ***TextArea*** on the ***Screen2***. Make this ***TextArea*** large enough to hold more text (auto-resize off).
-2. Put some random text in the TextArea:
+2. Put some random text (***Translation***) in the TextArea:
 
+Sample text:
 ```
 What determines absolute latency (and thus system performance) is determined by both the timings and the memory clock frequency.
 ```
@@ -23,7 +24,7 @@ What determines absolute latency (and thus system performance) is determined by 
 
 ![](imgs/changeLangBtn.gif)
 
-6. Add new ***Interaction*** in ***Screen2*** interaction list and configure:
+6. Add a new ***Interaction*** in ***Screen2*** interactions list, and configure:
     
     - ***Trigger*** : "Button is clicked"
     - ***Choose clicked source*** :    "button2"
@@ -59,7 +60,7 @@ GB: What determines absolute latency (and thus system performance) is determined
 
 CZE:
 ```
-Absolutní latenci (a tedy výkon systému) určují jak časování, tak frekvence paměťových hodin.
+Absolutní latenci (a tedy výkon systému) určují jak časování, tak frekvence hodin paměti.
 ```
 AR:
 ```
@@ -145,7 +146,7 @@ protected:
 ```cpp
 void Screen2View::changeLanguage()
 {
-    int idLanguage = Texts::getLanguage()+1;
+    int idLanguage = Texts::getLanguage() + 1;
     if (idLanguage == NUMBER_OF_LANGUAGES){
         idLanguage = 0;
     }

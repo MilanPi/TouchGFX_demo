@@ -1,7 +1,7 @@
 # 4. How to create a GUI with one screen
 > [<-- Back to main menu](README.md)
 
-### 1. Place on the canvas the first widget - a ***Box***.
+### 1. Place the first widget on the canvas - a ***Box***.
 
 ![](imgs/box.png)
 > Info: More information about the ***Box*** shape [here](https://support.touchgfx.com/docs/development/ui-development/ui-components/shapes/box)
@@ -15,17 +15,22 @@
 
 ### 4. Change the font to be a "Copper Black".
 
+1. Go to ***Properties*** panel.
+2. Under ***Typography*** open settings for ***Typography picker***.
+3. Select typography "***Large***" and click on settings button.
+4. Change the font using drop down menu.
+
 ![](imgs/ChangeFontCopperBlack.gif)
 
-### 5. Change text to "Screen 1" and move the ***TextArea*** to top and center of the canvas (use automatic green ***alignment guide lines***).
-```
-Screen 1
-```
+### 5. Change text (***translation***) to "Screen 1" and move the ***TextArea*** to top and center of the canvas (use automatic green ***alignment guide lines***).
+
 
 ![](imgs/textAreaPosition.gif)
 
 ### 6. Copy-paste this ***TextArea*** to produce three more ***TextArea*** widdgets to create similar layout seen bellow:
-> In the ***Properties*** panel -> ***Location*** put these ***Y*** axis coordinates:
+ 
+1. In the ***Properties*** panel -> ***Location*** put these ***Y*** axis coordinates:
+
 ```
 y = 100  (for upper text "Linear")
 y = 200  (for middle text "Sine")

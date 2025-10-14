@@ -11,7 +11,7 @@ Follow these steps:
 5. In the new ***Screen*** paste widgets from the clip board (Ctrl + V) and 
     - change ***box1*** color to black and 
     - ***textArea1*** color to white.
-6. On the new ***Screen2*** change ***textArea1*** text to "Screen 2".
+6. On the new ***Screen2*** change ***textArea1*** text (***Translation***) to "Screen 2".
 
 ![](imgs/newScreen.gif)
 
@@ -25,9 +25,9 @@ Follow these steps:
     - resize the width to fill the ***button*** width, 
     - set alighment to the center and 
     - adjust width to fit ***button*** width.
-3. Adjust text to "Go to Screen 1" and center ***TextArea*** on the button.
-3. Copy this ***button*** and ***TextArea*** in clip board.
-4. Paste it in the ***Screen1***, adjust position to upper right corner and adjust the text to "Go to screen 2".
+3. Adjust text (***Translation***) to "Go to Screen 1" and center ***TextArea*** on the button.
+3. Copy this ***button*** and ***TextArea*** to the clip board.
+4. Paste it in the ***Screen1***, adjust position to upper right corner and adjust the text (***Translation***) to "Go to screen 2".
 
 ![](imgs/GoToScreenButtons.gif)
 
@@ -37,6 +37,13 @@ Follow these steps:
 
 1. Add an ***Interaction*** (Interaction 8) in the ***Screen1***
 2. Add an ***Interaction*** (Interaction 1) in the ***Screen2***
+3. Fill the parameters (see all the values in the figure bellow):
+    - ***Trigger***: "Button is clicked"
+    - ***Choose*** clicked source: "button1"
+    - ***Action***: "Change screen"
+    - ***Choose screen***: ["Screen1", "Screen2"]
+    - ***Transition***: "Cover"
+    - ***Transition direction***: ["East", "West"]
 
 ![](imgs/Interaction_Scr1ToScr2.png) ![](imgs/Interaction_Scr2ToScr1.png)
 

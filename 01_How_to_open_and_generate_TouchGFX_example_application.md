@@ -16,6 +16,8 @@
 
 ![](imgs/designer02.gif)
 
+> Info: More details [here](https://support.touchgfx.com/academy/tutorials/tutorial-01)
+
 7. Click on **Generate** button (or press **F4** key).
 
 ![](imgs/generate.png)

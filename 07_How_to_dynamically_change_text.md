@@ -10,7 +10,7 @@
     - Set ***Alignment*** to right. 
     - Move the text to the right upper corner of the screen.
 4. In ***Properties*** -> ***Translation*** delete original text and set ***Wildcard 1***.
-5. Click on the Wildcard 1 button and set:
+5. Click on the ***Wildcard 1*** button and set:
     - Click ***plus button*** to set automatic ID.
     - Delete ***Initial value***.
     - check checkbox ***Use wildcard buffer***.
@@ -82,13 +82,16 @@ void Screen2View::handleTickEvent() // <-------- define this function
 	}
 }
 ```
+
+> Note: check [this](https://support.touchgfx.com/docs/development/ui-development/ui-components/miscellaneous/text-area#user-code-to-print-string) link, how to handle displaying ***float*** numbers (or other data). 
+
 ### 4. Open the project in the ***STM32CubeIDE***, build the project(s) and flash the board using a ***flash script***.
 
 > see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
 
 1. Observe what is happening on the display.
 
-### 5. Set wildcard ranges in ***Typographies*** to solve uknonw characters
+### 5. Set ***Wildcard Ranges*** in ***Typographies*** to solve uknonw characters
 
 1. Open ***Texts*** -> ***Typographies*** section.
 2. Select "***Large***" typography (the typography used for the ***TextArea*** with dynamic text).
@@ -103,8 +106,6 @@ void Screen2View::handleTickEvent() // <-------- define this function
 ### 7. Open the project in the ***STM32CubeIDE***, build the project(s) and flash the board using a ***flash script***.
 
 > see [How to build and flash TouchGFX application on STM32N6570-DK discovery board](02_How_to_build_and_flash_TouchGFX_application_on_STM32N6570-DK_discovery_board.md)
-
-Now all the characters are properly 
 
 > Continue with [How to handle language translations](08_How_to_handle_language_translations.md)
 
