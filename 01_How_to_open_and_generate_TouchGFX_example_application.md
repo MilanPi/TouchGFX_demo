@@ -4,21 +4,21 @@
 ![](imgs/designerIcon.png)
 [](imgs/ESesSRgBlU.png)
 ### 2. Select example
-1. Click on **Examples** button
-2. Click on **Select Board Setup** button
-3. Select STM32N6570 Discovery Kit
+1. Click on ***Examples*** button
+2. Click on ***Select Board Setup*** button
+3. Select ***STM32N6570 Discovery Kit***
 
 ![](imgs/designer01.gif)
 
 4. Then select any available example.
-5. Enter any **Application Name**.
-6. Click on **Create** button and wait until project generation is finished.
+5. Enter any ***Application Name***.
+6. Click on ***Create*** button and wait until project generation is finished.
 
 ![](imgs/designer02.gif)
 
 > Info: More details [here](https://support.touchgfx.com/academy/tutorials/tutorial-01)
 
-7. Click on **Generate** button (or press **F4** key).
+7. Click on ***Generate*** button (or press ***F4*** key).
 
 ![](imgs/generate.png)
 
