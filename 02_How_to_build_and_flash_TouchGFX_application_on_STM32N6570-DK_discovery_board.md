@@ -29,9 +29,11 @@ Now the application code is generated. Let's build the applicaiton.
 ### 2. Load the application
 
 1. Move switch BOOT1 to right position (H). Keep BOOT0 switch in left position (L).
-2. Connect USB-C cable to the PC and to the discovery kit. Red LED ***LD2*** should be seen on.
+2. Connect USB-C cable to the PC and to the discovery kit. ***Red*** LED ***LD2*** should be seen on.
 
 ![](imgs/Board.png)
+
+> Note: The procedure above did ***POR*** (Power-On Reset). Later you can just do HW reset using ***Reset button*** on the board. In case the loading of the application fail try to do a ***POR*** instead of using only the ***Reset button***.
 
 > Note: More details on discovery kit here: [STM32N6570-DK manual](https://www.st.com/resource/en/user_manual/um3300-discovery-kit-with-stm32n657x0-mcu-stmicroelectronics.pdf)
 
